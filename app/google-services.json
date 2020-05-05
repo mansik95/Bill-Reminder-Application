@@ -1,0 +1,275 @@
+{
+  "project_info": {
+    "project_number": "237492001293",
+    "firebase_url": "https://majorproject-cef2f.firebaseio.com",
+    "project_id": "majorproject-cef2f",
+    "storage_bucket": "majorproject-cef2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237492001293:android:3070f05d5ae156f6",
+        "android_client_info": {
+          "package_name": "com.example.yashoza.billreminder_devit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237492001293-8qg51geggvq5etj50a2cnbh5so3dcdr4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yashoza.billreminder_devit",
+            "certificate_hash": "4369444b2ae2f32f6b6fe5066b0bdd0eff409ad3"
+          }
+        },
+        {
+          "client_id": "237492001293-289lsdtc1b66eruhqinth3fd182vb0jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZuOHZwmWJrwgEv9RCJ9cURsEL3pnLtMg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237492001293-289lsdtc1b66eruhqinth3fd182vb0jc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237492001293:android:bd72492aa5b427ac",
+        "android_client_info": {
+          "package_name": "com.example.yashoza.majorproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237492001293-670fohvfqkb98bel1bvq5ctr8m62lvne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yashoza.majorproject",
+            "certificate_hash": "4369444b2ae2f32f6b6fe5066b0bdd0eff409ad3"
+          }
+        },
+        {
+          "client_id": "237492001293-289lsdtc1b66eruhqinth3fd182vb0jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZuOHZwmWJrwgEv9RCJ9cURsEL3pnLtMg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237492001293-289lsdtc1b66eruhqinth3fd182vb0jc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237492001293:android:69ce6d1f4c6842c0",
+        "android_client_info": {
+          "package_name": "com.inducesmile.androidfirebasechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237492001293-de6n5dev76f6akia0rdlvt9c9lc27i78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inducesmile.androidfirebasechat",
+            "certificate_hash": "4369444b2ae2f32f6b6fe5066b0bdd0eff409ad3"
+          }
+        },
+        {
+          "client_id": "237492001293-289lsdtc1b66eruhqinth3fd182vb0jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZuOHZwmWJrwgEv9RCJ9cURsEL3pnLtMg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237492001293-289lsdtc1b66eruhqinth3fd182vb0jc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237492001293:android:8a39e539a94dccee",
+        "android_client_info": {
+          "package_name": "com.tutorial.authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237492001293-5go89v91mbl5sruc2v6vo4mm5kekkgk5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tutorial.authentication",
+            "certificate_hash": "4369444b2ae2f32f6b6fe5066b0bdd0eff409ad3"
+          }
+        },
+        {
+          "client_id": "237492001293-289lsdtc1b66eruhqinth3fd182vb0jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZuOHZwmWJrwgEv9RCJ9cURsEL3pnLtMg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237492001293-289lsdtc1b66eruhqinth3fd182vb0jc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237492001293:android:e44c3ce9869fadcf",
+        "android_client_info": {
+          "package_name": "info.devexchanges.navvp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237492001293-rvlve6u5s41urg5st4tdijsfa9sj3dil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.devexchanges.navvp",
+            "certificate_hash": "4369444b2ae2f32f6b6fe5066b0bdd0eff409ad3"
+          }
+        },
+        {
+          "client_id": "237492001293-289lsdtc1b66eruhqinth3fd182vb0jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZuOHZwmWJrwgEv9RCJ9cURsEL3pnLtMg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237492001293-289lsdtc1b66eruhqinth3fd182vb0jc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237492001293:android:ed1eee349884a736",
+        "android_client_info": {
+          "package_name": "net.simplifiedlearning.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237492001293-a87l5iigsqkuafap19fk77flqe6pko9v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.simplifiedlearning.firebaseauth",
+            "certificate_hash": "4369444b2ae2f32f6b6fe5066b0bdd0eff409ad3"
+          }
+        },
+        {
+          "client_id": "237492001293-289lsdtc1b66eruhqinth3fd182vb0jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZuOHZwmWJrwgEv9RCJ9cURsEL3pnLtMg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237492001293-289lsdtc1b66eruhqinth3fd182vb0jc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

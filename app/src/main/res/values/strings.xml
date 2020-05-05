@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">BillReminderdevIT</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="bill_amount">Bill amount:</string>
+    <string name="amount">Amount</string>
+    <string name="category">Category:</string>
+    <string name="description">Description:</string>
+    <string name="submit">Submit</string>
+    <string name="this_will_take_you_to_your_profile">This will Take you to your profile</string>
+    <string name="go_to_my_profile">Go to My Profile</string>
+
+
+    <string name="bill_reminder_due_date">Due Date</string>
+    <string name="bill_reminder_already_paid">Already paid</string>
+    <string name="bill_reminder_bill_frequency">Bill Frequency</string>
+    <string name="bill_reminder_monthly">Monthly</string>
+    <string name="bill_reminder_bi_monthly">Bi Monthly</string>
+    <string name="bill_reminder_quarterly">Quarterly</string>
+    <string name="bill_reminder_add_a_note">Add a note</string>
+    <string name="bill_reminder_yearly">Yearly</string>
+    <string name="bill_reminder_half_yearly">Half Yearly</string>
+    <string name="bill_frequency">Bill Frequency</string>
+
+    <string-array name="my_items">
+        <item>Dummy Item 1</item>
+        <item>Dummy Item 2</item>
+        <item>Dummy Item 3</item>
+        <item>Dummy Item 4</item>
+        <item>Dummy Item 5</item>
+        <item>Dummy Item 6</item>
+        <item>Dummy Item 7</item>
+        <item>Dummy Item 8</item>
+        <item>Dummy Item 9</item>
+        <item>Dummy Item 10</item>
+        <item>Dummy Item 11</item>
+        <item>Dummy Item 12</item>
+        <item>Dummy Item 13</item>
+        <item>Dummy Item 14</item>
+
+
+    </string-array>
+</resources>

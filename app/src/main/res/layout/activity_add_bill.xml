@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yashoza.billreminder_devit.AddBillActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@color/bill_reminder_border_LL_background_color"
+            android:elevation="1dp"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingTop="16dp"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/bill_reminder_name"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/user" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/bill_reminder_name"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/add_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#616161"
+                    android:hint="Name"
+                    android:inputType="text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/bill_reminder_due_date"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_below="@id/bill_reminder_name"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:onClick="selectDueDate"
+                android:src="@drawable/due_date" />
+
+            <EditText
+                android:id="@+id/add_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/bill_reminder_name"
+                android:layout_toEndOf="@id/bill_reminder_due_date"
+                android:backgroundTint="#616161"
+                android:focusable="false"
+                android:clickable="false"
+                android:focusableInTouchMode="false"
+                android:hint="Due Date"
+                android:onClick="selectDueDate" />
+
+            <ImageView
+                android:id="@+id/bill_reminder_amount_image"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_below="@id/bill_reminder_due_date"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/rupees" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bill_reminder_due_date"
+                android:layout_toEndOf="@id/bill_reminder_amount_image">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/add_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/bill_reminder_tint_color"
+                    android:hint="Enter Amount"
+                    android:inputType="number" />
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/bill_reminder_information_image"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_below="@id/bill_reminder_amount_image"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/information" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bill_reminder_amount_image"
+                android:layout_toEndOf="@id/bill_reminder_information_image">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/add_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/bill_reminder_tint_color"
+                    android:hint="Enter description"
+                    android:inputType="text" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/add_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bill_reminder_information_image"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp" />
+
+            <TextView
+                android:id="@+id/bill_reminder_checkbox_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/bill_reminder_information_image"
+                android:layout_marginEnd="64dp"
+                android:text="Already paid" />
+
+            <CheckBox
+                android:id="@+id/all_paid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/bill_reminder_information_image"
+                android:layout_marginEnd="144dp"
+                android:buttonTint="@color/bill_reminder_tint_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/all_paid"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="#f2f2f2"
+                android:elevation="1dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/bill_frequency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Bill Frequency" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:id="@+id/bill_reminder_monthly"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1"
+                        android:background="@color/bill_reminder_monthly_background_textview"
+                        android:padding="4dp"
+                        android:text="@string/bill_reminder_monthly"
+                        android:textColor="@color/bill_reminder_textView_textColor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bill_reminder_bi_monthly"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1"
+                        android:background="@color/bill_reminder_monthly_background_textview"
+                        android:padding="4dp"
+                        android:text="@string/bill_reminder_bi_monthly"
+                        android:textColor="@color/bill_reminder_textView_textColor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bill_reminder_quarterly"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1"
+                        android:background="@color/bill_reminder_monthly_background_textview"
+                        android:padding="4dp"
+                        android:text="@string/bill_reminder_quarterly"
+                        android:textColor="@color/bill_reminder_textView_textColor"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:id="@+id/bill_reminder_half_yearly"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1"
+                        android:background="@color/bill_reminder_monthly_background_textview"
+                        android:padding="4dp"
+                        android:text="@string/bill_reminder_half_yearly"
+                        android:textColor="@color/bill_reminder_textView_textColor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bill_reminder_yearly"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1"
+                        android:background="@color/bill_reminder_monthly_background_textview"
+                        android:padding="4dp"
+                        android:text="@string/bill_reminder_yearly"
+                        android:textColor="@color/bill_reminder_textView_textColor"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name ="billFrequency">#1b5e20</color>
+    <color name="textColorBackground">#e0e0e0</color>
+    <color name="bill_reminder_background_color">#eeeeee</color>
+    <color name="bill_reminder_border_LL_background_color">#f2f2f2</color>
+    <color name="bill_reminder_monthly_background_textview">#e0e0e0</color>
+    <color name="bill_reminder_textView_textColor">#757575</color>
+    <color name="bill_reminder_addnote_LL_background">#f2f2f2</color>
+    <color name="bill_reminder_addnote_background">#ffff00</color>
+    <color name="bill_reminder_floating_action_background_tint">#ffffff</color>
+    <color name="bill_reminder_detail_activity_textView_color">#ffffff</color>
+    <color name="bill_reminder_tint_color">#757575</color>
+    <!--Calender-->
+    <color name="primary_pink">#3d5afe</color>
+    <color name="primary_orange">#FBAF3F</color>
+    <color name="primary_blue">#4B9DD6</color>
+    <color name="primary_green">#2CB4B4</color>
+    <color name="white">#ffffff</color>
+</resources>

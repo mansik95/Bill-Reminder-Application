@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="8dp"
+        android:id="@+id/type_image"
+        android:transitionName="XYZ"
+        android:src="@drawable/rupees"/>
+
+    <TextView
+        android:id="@+id/bill_name"
+        android:textSize="22sp"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_toEndOf="@id/type_image"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:ellipsize="end"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bill_date"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/type_image"
+        android:layout_below="@+id/bill_name"
+        android:text="Category" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/rupees"
+        android:id="@+id/bill_amount"
+        android:layout_marginTop="11dp"
+        android:layout_alignParentEnd="true"
+        android:text="Amt"
+        android:textSize="36sp"/>
+</RelativeLayout>
